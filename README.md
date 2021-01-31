@@ -1,5 +1,5 @@
 # nut-server
-Fork of ramdock/nut-server docker image for serving switch nsp and xci to tinfoil on local network. Now uses nut server from blawar/nut as original server was causing me issues.
+Fork of ramdock/nut-server docker image for serving switch nsp and xci to tinfoil on local network. Now uses nut from blawar/nut as original was causing issues with my setup.
 
 ## Quick Start
 
