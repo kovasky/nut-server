@@ -1,12 +1,12 @@
 # nut-server
-nut server docker image for serving switch nsp and xci to tinfoil on local network
+Fork of ramdock/nut-server docker image for serving switch nsp and xci to tinfoil on local network. Now uses nut server from blawar/nut as original server was causing me issues.
 
 ## Quick Start
 
 Pull latest build from docker hub
 
 ```
-docker pull ramdockerapp/nut-server
+docker pull kovasky/nut-server
 ````
 
 Launch the nut-server docker container with the following command:
@@ -18,7 +18,7 @@ docker run -d \
     -v $GAMES:/games:rw \
     -e ID=$ID \
     -e PASSWORD=$PASSWORD \
-    ramdockerapp/nut-server
+    kovasky/nut-server
 ```
 
 Where:
